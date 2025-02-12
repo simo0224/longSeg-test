@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train.py DEBUG",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",  // 指定你的train.py文件路径
+            "console": "integratedTerminal",  // 使用VSCode内部终端
+            "justMyCode": false,  // 调试时进入第三方库的代码
+            "args": [
+                // 可以添加命令行参数，若无则留空
+            ]
+        }
+    ]
+}
